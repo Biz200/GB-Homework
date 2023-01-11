@@ -7,6 +7,7 @@ PrintArray(table);
 
 void RandomArray(int[,] array)
 {
+    Console.WriteLine("Задан массив:");
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
@@ -18,6 +19,7 @@ void RandomArray(int[,] array)
 
 void SortLower(int[,] array)
 {
+    Console.WriteLine("Получается такой массив:");
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
