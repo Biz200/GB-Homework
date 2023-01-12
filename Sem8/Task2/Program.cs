@@ -45,7 +45,7 @@ void NumberRowMinSumElements(int[,] array)
         }
         sumRow = 0;
     }
-    Console.Write($"Cтрока c наименьшей суммой элементов: {minSumRow + 1}");
+    Console.Write($"Строка c наименьшей суммой элементов: {minSumRow + 1}");
 }
 
 void PrintArray(int[,] array)
